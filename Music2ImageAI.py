@@ -6,16 +6,16 @@ Bryant Moquist
 # coding: utf-8
 
 from __future__ import print_function
-import scipy, pylab
+# import scipy, pylab
 from scipy.io.wavfile import read
 import sys
 import peakpicker as pp
 import fingerprint as fhash
-import matplotlib
+# import matplotlib
 import numpy as np
 import tdft
 import wave
-import pylab as plt
+#import pylab as plt
 import pandas as pd
 # import load_vgg
 # import utils
@@ -123,7 +123,7 @@ def AnalyzeAudio(filename, database, numSongs):
     print('The sample song-genre is: ' + dict[targetTracksId])
     return dict[targetTracksId]    #str
 
-
+imgnumber = 0
 def Music2Image(FileName):
 
     ###### setup()
@@ -204,9 +204,13 @@ def Music2Image(FileName):
         #
         styleImgFolderPath = "./ImageData/" + Genre + str(haha) + ".png"
         pic = Image.open(styleImgFolderPath)
-        pic.show()
+        #pic.show()
+        global imgnumber
+        imgnumber =imgnumber+ 1
+        f = open('exchange.txt', 'a+')
+        f.write(str(i) + '\n')
+        f.close()
 
-
-if __name__ == '__main__':
+def test2():
     FileName = './Music_input_data/RightHereWaiting.wav'
     Music2Image(FileName)
