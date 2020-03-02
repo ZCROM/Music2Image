@@ -7,9 +7,12 @@ from werkzeug.utils import secure_filename
 music_list=[
 "https://img-blog.csdnimg.cn/20200229122438603.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2VoZGhnMTM0NTU=,size_16,color_FFFFFF,t_70",
 "https://img-blog.csdnimg.cn/20200229124021799.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2VoZGhnMTM0NTU=,size_16,color_FFFFFF,t_70",
-"https://img-blog.csdnimg.cn/20200229124209943.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2VoZGhnMTM0NTU=,size_16,color_FFFFFF,t_70",
+"https://img-blog.csdnimg.cn/20200301113708835.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2VoZGhnMTM0NTU=,size_16,color_FFFFFF,t_70",
 "https://img-blog.csdnimg.cn/20200229124252957.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2VoZGhnMTM0NTU=,size_16,color_FFFFFF,t_70",
 "https://img-blog.csdnimg.cn/2020022912432571.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2VoZGhnMTM0NTU=,size_16,color_FFFFFF,t_70",
+"https://img-blog.csdnimg.cn/20200301113902514.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2VoZGhnMTM0NTU=,size_16,color_FFFFFF,t_70",
+"https://img-blog.csdnimg.cn/20200229124352173.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2VoZGhnMTM0NTU=,size_16,color_FFFFFF,t_70",
+"https://img-blog.csdnimg.cn/20200229124352173.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2VoZGhnMTM0NTU=,size_16,color_FFFFFF,t_70",
 "https://img-blog.csdnimg.cn/20200229124431643.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2VoZGhnMTM0NTU=,size_16,color_FFFFFF,t_70"
 ]
 def after_request(response):

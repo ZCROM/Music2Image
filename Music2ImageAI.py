@@ -174,7 +174,6 @@ def Music2Image(FileName):
     # time.sleep(time_remaining)
     styleImgFolderPath = "./ImageData/" + Genre + ".png"
     pic = Image.open(styleImgFolderPath)
-    pic.show()
 
     while StepTotalNum < nframes:
         # for j in range(int(Cutnum)):
@@ -203,10 +202,11 @@ def Music2Image(FileName):
         # content_img = imageContentPath[haha - 1]
         #
         styleImgFolderPath = "./ImageData/" + Genre + str(haha) + ".png"
-        pic = Image.open(styleImgFolderPath)
+        #pic = Image.open(styleImgFolderPath)
         #pic.show()
         global imgnumber
         imgnumber =imgnumber+ 1
+        print(imgnumber)
         f = open('exchange.txt', 'a+')
         f.write(str(i) + '\n')
         f.close()
